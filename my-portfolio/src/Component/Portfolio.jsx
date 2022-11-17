@@ -3,16 +3,16 @@ import React from 'react'
 const Portfolio = () => {
   return (
     <>
-    <section class="site-section" id="section-portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="section-heading text-center col-md-12">
+    <section className="site-section" id="section-portfolio">
+		<div className="container">
+			<div className="row">
+				<div className="section-heading text-center col-md-12">
 					<h2>Featured <strong>Portfolio</strong></h2>
 				</div>
 			</div>
-			<div class="filters">
+			<div className="filters">
 				<ul>
-					<li class="active" data-filter="*">All</li>
+					<li className="active" data-filter="*">All</li>
 					<li data-filter=".packaging">Packaging</li>
 					<li data-filter=".mockup">Mockup</li>
 					<li data-filter=".typography">Typography</li>
@@ -20,109 +20,109 @@ const Portfolio = () => {
 				</ul>
 			</div>
 
-			<div class="filters-content">
-				<div class="row grid">
-					<div class="single-portfolio col-sm-4 all mockup">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p1.jpg" alt="" />
+			<div className="filters-content">
+				<div className="row grid">
+					<div className="single-portfolio col-sm-4 all mockup">
+						<div className="relative">
+							<div className="thumb">
+								<div className="overlay overlay-bg"></div>
+								<img className="image img-fluid" src="images/p1.jpg" alt="" />
 							</div>
-							<a href="images/p1.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt="" /></div>
+							<a href="images/p1.jpg" className="img-pop-up">  
+								<div className="middle">
+									<div className="text align-self-center d-flex"><img src="images/preview.png" alt="images/preview.png" /></div>
 								</div>
 							</a>                                  
 						</div>
-						<div class="p-inner">
+						<div className="p-inner">
 							<h4>Square Box Mockup</h4>
-							<div class="cat">Mockup</div>
+							<div className="cat">Mockup</div>
 						</div>                                         
 					</div>
-					<div class="single-portfolio col-sm-4 all mockup">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p2.jpg" alt="" />
+					<div className="single-portfolio col-sm-4 all mockup">
+						<div className="relative">
+							<div className="thumb">
+								<div className="overlay overlay-bg"></div>
+								<img className="image img-fluid" src="images/p2.jpg" alt="" />
 							</div>
-							<a href="images/p2.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
+							<a href="images/p2.jpg" className="img-pop-up">  
+								<div className="middle">
+									<div className="text align-self-center d-flex"><img src="images/preview.png" alt="images/preview.png"/></div>
 								</div>
 							</a>                                  
 						</div>
-						<div class="p-inner">
+						<div className="p-inner">
 							<h4>Product Box Package Mockup</h4>
-							<div class="cat">Mockup</div>
+							<div className="cat">Mockup</div>
 						</div>                                         
 					</div>                            
-					<div class="single-portfolio col-sm-4 all packaging">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p3.jpg" alt=""/>
+					<div className="single-portfolio col-sm-4 all packaging">
+						<div className="relative">
+							<div className="thumb">
+								<div className="overlay overlay-bg"></div>
+								<img className="image img-fluid" src="images/p3.jpg" alt=""/>
 							</div>
-							<a href="images/p3.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
+							<a href="images/p3.jpg" className="img-pop-up">  
+								<div className="middle">
+									<div className="text align-self-center d-flex"><img src="images/preview.png" alt="images/preview.png"/></div>
 								</div>
 							</a> 
 
 						</div>
-						<div class="p-inner">
+						<div className="p-inner">
 							<h4>Creative Package Design</h4>
-							<div class="cat">Packaging</div>
+							<div className="cat">Packaging</div>
 						</div>
 					</div>
-					<div class="single-portfolio col-sm-4 all packaging">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p4.jpg" alt=""/>
+					<div className="single-portfolio col-sm-4 all packaging">
+						<div className="relative">
+							<div className="thumb">
+								<div className="overlay overlay-bg"></div>
+								<img className="image img-fluid" src="images/p4.jpg" alt=""/>
 							</div>
-							<a href="images/p4.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
+							<a href="images/p4.jpg" className="img-pop-up">  
+								<div className="middle">
+									<div className="text align-self-center d-flex"><img src="images/preview.png" alt="images/preview.png"/></div>
 								</div>
 							</a>                                
 						</div> 
-						<div class="p-inner">
+						<div className="p-inner">
 							<h4>Packaging Brand</h4>
-							<div class="cat">Packaging</div>
+							<div className="cat">Packaging</div>
 						</div>
 					</div>
-					<div class="single-portfolio col-sm-4 all typography">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p5.jpg" alt=""/>
+					<div className="single-portfolio col-sm-4 all typography">
+						<div className="relative">
+							<div className="thumb">
+								<div className="overlay overlay-bg"></div>
+								<img className="image img-fluid" src="images/p5.jpg" alt=""/>
 							</div>
-							<a href="images/p5.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
+							<a href="images/p5.jpg" className="img-pop-up">  
+								<div className="middle">
+									<div className="text align-self-center d-flex"><img src="images/preview.png" alt="images/preview.png"/></div>
 								</div>
 							</a>                                
 						</div>
-						<div class="p-inner">
+						<div className="p-inner">
 							<h4>Isometric 3D Extrusion</h4>
-							<div class="cat">Typography</div>
+							<div className="cat">Typography</div>
 						</div>
 					</div>
-					<div class="single-portfolio col-sm-4 all photography">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="images/p6.jpg" alt=""/>
+					<div className="single-portfolio col-sm-4 all photography">
+						<div className="relative">
+							<div className="thumb">
+								<div className="overlay overlay-bg"></div>
+								<img className="image img-fluid" src="images/p6.jpg" alt=""/>
 							</div>
-							<a href="images/p6.jpg" class="img-pop-up">  
-								<div class="middle">
-									<div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
+							<a href="images/p6.jpg" className="img-pop-up">  
+								<div className="middle">
+									<div className="text align-self-center d-flex"><img src="images/preview.png" alt="images/preview.png"/></div>
 								</div>
 							</a>                                
 						</div>
-						<div class="p-inner">
+						<div className="p-inner">
 							<h4>White Space Photography</h4>
-							<div class="cat">photography</div>
+							<div className="cat">photography</div>
 						</div>
 					</div>
 				</div>

@@ -2,132 +2,85 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <><section class="site-section" id="section-portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="section-heading text-center col-md-12">
-                <h2>Featured <strong>Portfolio</strong></h2>
-            </div>
-        </div>
-        <div class="filters">
-            <ul>
-                <li class="active" data-filter="*">All</li>
-                <li data-filter=".packaging">Packaging</li>
-                <li data-filter=".mockup">Mockup</li>
-                <li data-filter=".typography">Typography</li>
-                <li data-filter=".photography">Photography</li>
-            </ul>
-        </div>
+    <>
+    <section className="site-section " id="section-resume">
+		<div className="container">
+			<div className="row">
+				<div className="col-md-12 mb-5">
+					<div className="section-heading text-center">
+						<h2>My <strong>Resume</strong></h2>
+					</div>
+				</div>
+				<div className="col-md-6">
+					<h2 className="mb-5">Education</h2>
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Masteral in Information Technology</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">New York University</span>
+					</div>
 
-        <div class="filters-content">
-            <div class="row grid">
-                <div class="single-portfolio col-sm-4 all mockup">
-                    <div class="relative">
-                        <div class="thumb">
-                            <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="images/p1.jpg" alt=""/>
-                        </div>
-                        <a href="images/p1.jpg" class="img-pop-up">  
-                            <div class="middle">
-                                <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
-                            </div>
-                        </a>                                  
-                    </div>
-                    <div class="p-inner">
-                        <h4>Square Box Mockup</h4>
-                        <div class="cat">Mockup</div>
-                    </div>                                         
-                </div>
-                <div class="single-portfolio col-sm-4 all mockup">
-                    <div class="relative">
-                        <div class="thumb">
-                            <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="images/p2.jpg" alt=""/>
-                        </div>
-                        <a href="images/p2.jpg" class="img-pop-up">  
-                            <div class="middle">
-                                <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
-                            </div>
-                        </a>                                  
-                    </div>
-                    <div class="p-inner">
-                        <h4>Product Box Package Mockup</h4>
-                        <div class="cat">Mockup</div>
-                    </div>                                         
-                </div>                            
-                <div class="single-portfolio col-sm-4 all packaging">
-                    <div class="relative">
-                        <div class="thumb">
-                            <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="images/p3.jpg" alt=""/>
-                        </div>
-                        <a href="images/p3.jpg" class="img-pop-up">  
-                            <div class="middle">
-                                <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
-                            </div>
-                        </a> 
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present Deacember.</span>
+						<h3>Masteral in Information Technology</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">New York University</span>
+					</div>
 
-                    </div>
-                    <div class="p-inner">
-                        <h4>Creative Package Design</h4>
-                        <div class="cat">Packaging</div>
-                    </div>
-                </div>
-                <div class="single-portfolio col-sm-4 all packaging">
-                    <div class="relative">
-                        <div class="thumb">
-                            <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="images/p4.jpg" alt=""/>
-                        </div>
-                        <a href="images/p4.jpg" class="img-pop-up">  
-                            <div class="middle">
-                                <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
-                            </div>
-                        </a>                                
-                    </div> 
-                    <div class="p-inner">
-                        <h4>Packaging Brand</h4>
-                        <div class="cat">Packaging</div>
-                    </div>
-                </div>
-                <div class="single-portfolio col-sm-4 all typography">
-                    <div class="relative">
-                        <div class="thumb">
-                            <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="images/p5.jpg" alt=""/>
-                        </div>
-                        <a href="images/p5.jpg" class="img-pop-up">  
-                            <div class="middle">
-                                <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
-                            </div>
-                        </a>                                
-                    </div>
-                    <div class="p-inner">
-                        <h4>Isometric 3D Extrusion</h4>
-                        <div class="cat">Typography</div>
-                    </div>
-                </div>
-                <div class="single-portfolio col-sm-4 all photography">
-                    <div class="relative">
-                        <div class="thumb">
-                            <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="images/p6.jpg" alt=""/>
-                        </div>
-                        <a href="images/p6.jpg" class="img-pop-up">  
-                            <div class="middle">
-                                <div class="text align-self-center d-flex"><img src="images/preview.png" alt=""/></div>
-                            </div>
-                        </a>                                
-                    </div>
-                    <div class="p-inner">
-                        <h4>White Space Photography</h4>
-                        <div class="cat">photography</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section></>
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Masteral in Information Technology</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">New York University</span>
+					</div>
+
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present Deacember.</span>
+						<h3>Masteral in Information Technology</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">New York University</span>
+					</div>
+
+				</div>
+				<div className="col-md-6">
+
+
+					<h2 className="mb-5">Experience</h2>
+
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Lead Product Designer</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">Github</span>
+					</div>
+
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Lead Product Designer</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">Facebook</span>
+					</div>
+
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Lead Product Designer</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">Twitter</span>
+					</div>
+
+					<div className="resume-item mb-4">
+						<span className="date"><span className="icon-calendar"></span> March 2013 - Present</span>
+						<h3>Lead Product Designer</h3>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+						<span className="school">Shopify</span>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+</>
   )
 }
 

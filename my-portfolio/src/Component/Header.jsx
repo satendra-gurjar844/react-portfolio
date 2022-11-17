@@ -1,24 +1,26 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 const Header = () => {
+
   return (
     <>
-      <nav class="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
+      <nav className="navbar navbar-expand-lg site-navbar navbar-light bg-light" id="pb-navbar">
 
-        <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <div className="container">
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
 
 
-          <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href={"#section-home"}>Home</a></li>
-              <li class="nav-item"><a class="nav-link" href={"#section-portfolio"}>Portfolio</a></li>
-            <li class="nav-item"><a class="nav-link" href={"#section-resume"}>Resume</a></li>
-              <li class="nav-item"><a class="nav-link" href={"#section-about"}>About</a></li>
-              <li class="nav-item"><a class="nav-link" href={"#section-contact"}>Contact</a></li>
-            </ul>
+          <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
+            
+              <Link className="nav-link nav-item" to="/">Home</Link>
+              <Link className="nav-link nav-item" to="/portfolio">Portfolio</Link>
+              <Link className="nav-link nav-item" to="/resume">Resume</Link>
+              <Link className="nav-link nav-item" to="/about">About</Link>
+              <Link className="nav-link nav-item" to="/contact">Contact</Link>
+           
           </div>
         </div>
         </nav>
