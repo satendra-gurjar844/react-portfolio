@@ -14,12 +14,12 @@ const About = () => {
 					<div className="section-heading">
 						<h2>About <strong>Me</strong></h2>
 					</div>
-					<p className="lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-					<p className="mb-5  ">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+					<p className="lead">5+ years experience in development and revelavant 1.5 experience in React Development with hands on experience in identifing web-based user interactions along with desiging & implementing high responsive user interface componenet by developing react concept.</p>
+					<p className="mb-5  ">Proficient in writing high-quality code, and writing application interface code via javascript and ReactJS workflows. Adopt and monitoring and maintaining front-end performance and troubleshooting & debugging the same to boister overall performance.</p>
 
 					<p>
 						<Link to={"/contact"} className="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</Link>&nbsp;
-						<Link to="#" className="btn btn-secondary px-4 py-2 btn-sm">Download CV</Link>
+						<Link to={"../Resume_Satendra_PHP_4.docx"} className="btn btn-secondary px-4 py-2 btn-sm">Download CV</Link>
 					</p>
 				</div>
 			</div>
