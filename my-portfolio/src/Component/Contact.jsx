@@ -40,14 +40,16 @@ const Contact = () => {
         }
     
         setValidation(errors);
-      };
+    };
 
     useEffect(() => {
-        checkValidation();
-    }, []);
+        //checkValidation();
+    }, [inputValues]);
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        checkValidation();
+        
     };
 
   return (
@@ -73,10 +75,10 @@ const Contact = () => {
                         name="fname"
                         id="fname"
                         onChange={(e) => handleChange(e)}
-                        value={inputValues.name}
+                        value={inputValues.fname}
                         placeholder="Your Name"/>
-                        {validation.name && <p>{validation.name}</p>}
-                        {validation.name && console.log(validation)}
+                        {validation.fname && <p style={{"color":"red"}}>{validation.fname}</p>}
+                        {validation.fname && console.log(validation)}
                     </div>
                     
                     <div className="form-group">
@@ -85,7 +87,7 @@ const Contact = () => {
                         onChange={(e) => handleChange(e)}
                         value={inputValues.email}
                         placeholder="Your Email"/>
-                        {validation.email && <p>{validation.email}</p>}
+                        {validation.email && <p style={{"color":"red"}}>{validation.email}</p>}
                     </div>
                     <div className="form-group">
                         <input type="text" className="form-control px-3 py-4" placeholder="Your Phone"/>
