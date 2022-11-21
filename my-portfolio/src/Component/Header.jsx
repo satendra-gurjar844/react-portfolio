@@ -14,15 +14,15 @@ const Header = () => {
 
 
           <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
-            
-              <Link className="nav-link nav-item" to="/">Home</Link>
-              <Link className="nav-link nav-item" to="/portfolio">Portfolio</Link>
-              <Link className="nav-link nav-item" to="/resume">Resume</Link>
-              <Link className="nav-link nav-item" to="/about">About</Link>
-              <Link className="nav-link nav-item" to="/contact">Contact</Link>
-           
+            <ul className="navbar-nav">
+              <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/portfolio">Portfolio</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/resume">Resume</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/about">About</Link></li>
+              <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+           </ul>
           </div>
-        </div>
+        </div>    
         </nav>
     </>
   )

@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Portfolio = () => {
   return (
     <>
@@ -12,11 +11,11 @@ const Portfolio = () => {
 			</div>
 			<div className="filters">
 				<ul>
-					<li className="active" data-filter="*">All</li>
-					<li data-filter=".packaging">Packaging</li>
-					<li data-filter=".mockup">Mockup</li>
-					<li data-filter=".typography">Typography</li>
-					<li data-filter=".photography">Photography</li>
+					<li id="1" className="active" data-filter="*">All</li>
+					<li id="21" data-filter=".packaging">Packaging</li>
+					<li id="3" data-filter=".mockup">Mockup</li>
+					<li id="41" data-filter=".typography">Typography</li>
+					<li id="5" data-filter=".photography">Photography</li>
 				</ul>
 			</div>
 
